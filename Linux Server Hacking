@@ -1,0 +1,22 @@
+Linux Priviledge Escilation:
+    LinPeas.sh
+    LinEnum.sh
+    pspy64.py
+    Linprivscheck.py https://gist.githubusercontent.com/sh1n0b1/e2e1a5f63fbec3706123/raw/1bd5f119a7f1e2d4c9328d78686ae79b4e1642f7/linuxprivchecker.py
+    GTFObins github
+    
+    
+Make reverse Shell interactive:
+   # In reverse shell
+    $ python -c 'import pty; pty.spawn("/bin/bash")'
+    Ctrl-Z
+
+  # In Kali
+    $ stty raw -echo
+    $ fg
+
+  # In reverse shell
+    $ reset
+    $ export SHELL=bash || export TERM=xterm
+    $ export TERM=xterm-256color
+    $ stty rows 38 columns 116
